@@ -23,8 +23,8 @@ const BookList = () => {
           <li key={book.isbn}>
             <h3>{book.title}</h3>
             <img src={book.image} alt="책 사진"/>
-            <p>저자: {book.author}</p>
-            <p>가격: {book.discount} 원</p>
+            <p>{book.author} | {book.publisher}</p>
+            <p>도서가: {book.discount} 원</p>
           </li>
         ))}
       </ul>
