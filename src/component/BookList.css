@@ -1,0 +1,25 @@
+.BookList ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.BookList li {
+    margin-bottom: 20px;
+}
+
+.BookList h3 {
+    margin: 0;
+}
+
+.BookList p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
